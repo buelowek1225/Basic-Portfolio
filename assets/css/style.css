@@ -1,118 +1,137 @@
+/* header and navigation panel */
 header {
-    background-color: whitesmoke;
+    background-color: #ffffff;
     text-align: right;
-    border-bottom: 2px solid darkgrey;
+    border-bottom: 2px solid #cccccc;
     height: 85px;
-}
-
- /* title name */
- .name {
-    font-size: 2em;
-    font-weight: bold;
-    color: white;
-    background-color:teal;
-    width:18%;
-    vertical-align: center;
-    float: left;
-    text-align: left;
-    margin-left: 116px;
-    height:51%;
-    padding:21px;
- }
-
- /* subheader changes from about-contact-portfolio */
-.subheader{
-    color: teal;
-    border-bottom: 2px solid lightgray;
-    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Nav class formatting */
 .nav{
     padding: 2em;
     margin: unset;
-    margin-right:5%;
+    margin-right:8%;
 }
 
 /* nav-item (text) formatting */
 .nav-item {
     display:inline;
 }
+
 a {
     text-decoration: none;
     text-align: center;
     padding: .5em;
     margin:0px;
-    color: rgb(89, 97, 105);
-}  
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+ /* title name */
+ .name {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width:18%;
+    vertical-align: center;
+    float: left;
+    text-align: left;
+    margin-left: 136px;
+    height:51%;
+    padding:21px;
+ }
+
+ /* subheader changes per page(about-contact-portfolio) */
+.subheader{
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ /* background image/style */
 body {
-    background-color: lightgray;
+    background-image: url("..\\images\\concrete_seamless.png");
     margin: unset;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* index text styling */
 p {
     margin-left: 270px;
-    color: rgb(104, 103, 103);
+    color: #777777;
     font-size: smaller;
 }
 
+/* submit button */
 input{
     width: 100%;
-    color: darkgray;
+    color: #777777;
 }
 
+/* Contact.html Message input formating */
 textarea{
     width: 100%;
 }
 
-h3{
-    color: white;
-    background-color: teal;
-    width: 15%;
-    padding: 4px;
-    font-size: smaller;
-    text-align: center;
-
-
-}
 /* container styling for all */
 .container1 {
-    background-color: whitesmoke;
-    border-color: rgb(93, 103, 112);
-    border: 1em;
-    width: 80%;
-    height: 350px;
+    background-color: #ffffff;
+    border: solid;
+    border-color:#dddddd;
+    width: 960px;
+    height: 340px;
     margin: auto;
+    margin-top: 1.5em;
     padding: 1.5em;
     padding-top: 0em;
-    padding-bottom: 3em;
+    padding-bottom: 5em;
+   
 }
 
 figure {
     display:inline-block;
+    margin: 2em;
+    margin-top: .4em;
+    margin-bottom: .2em;
 }
 
-/* css setting for figcaptions */
-figcaption {
-    position: relative;
-}
-
-
-.floatleft {
+/* index.html profile picture */
+.profile-pic {
     float: left;
+}
+
+/* Portfolio.html Figure Captions */
+figcaption {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    top: -40px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
 }
 
 /* styling all pages footer */
 footer {
-    background-color: rgb(88, 86, 86);
+    background-color: #666666;
     text-align: center;
     vertical-align: center;
-    color:white;
-    border-top: 3px solid teal;
+    color:#ffffff;
+    border-top: 8px solid #4aaaa5;
     height: 50px;
     line-height: 10px;
     position: fixed;
     bottom: 0;
     width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.portfolio-image{
+    width: 130px;
+    height: 130px;
+
 }
